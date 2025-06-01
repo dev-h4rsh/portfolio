@@ -1,0 +1,190 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: lightgray;
+}
+
+.header-section{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+  height: 500px;
+  transition: all 0.3s ease;
+}
+
+.name-title{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.userName{
+  font-size: 130px;
+  font-weight: 900;
+  width: 200px;
+}
+
+.number-btn-box, .location-box, .mail-box {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.call-img, .mail-img, .location-img{
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+}
+
+.job-title{
+  font-size: 45px;
+  font-weight: 700;
+  color: #E5E4E2;
+}
+
+.job-title:hover{
+  color: rgb(0, 0, 0);
+}
+
+.user-info{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.header-section:hover{
+  color: white;
+  background-color: black;
+}
+
+
+/* last section */
+
+.last-section{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+  height: 500px;
+  transition: all 0.2s ease;
+}
+
+.skill-tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.skill-heading{
+  font-size: 130px;
+  font-weight: 900;
+}
+
+.skill-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: table-row;
+  list-style: none;
+}
+
+li {
+  display: table-row;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 200;
+  transition: all 0.2s ease;
+}
+  
+li::before {
+  display: table-cell;
+  text-align: right;
+  content: "+";
+  font-size: 1em;
+  font-weight: bold;
+  color: #FF404C;
+  padding-right: 12px;
+}
+
+.last-section:hover{
+  background-color: #000000;
+  color: white;
+}
+
+.last-section:hover li{
+  color: white;
+}
+/* 
+.last-section:hover::content li {
+color: #FF404C;
+} */
+
+
+/* bottom section */
+
+
+.middle-section{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  right: 0; 
+  border: 1px solid black;
+  height: auto;
+  transition: all 0.2s ease;
+}
+
+.middle-section-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.middle-section-heading{
+  font-size: 130px;
+  font-weight: 900;
+}
+
+.middle-section-list{
+  padding: 20px;
+}
+
+.middle-section:hover{
+  background-color: #000000;
+  color: white;
+}
+
+.middle-section:hover li{
+  color: white;
+}
